@@ -74,7 +74,7 @@ while error_counter < 7:
 
     elif guessed_letter not in letter_list:
         if error_counter == 6:
-            print("Sorry You lost :(")
+            print("Sorry You lost :'(")
             sys.exit()
         error_counter += 1
         print(hangman[error_counter])
